@@ -36,7 +36,8 @@
  function drawChart() 
  {
     var data = google.visualization.arrayToDataTable([ ['Beam_ID', 'AvgThick', 'AvgTTV', 'AvgSawmark', 'AvgBow', 'AvgWarp', 'AvgResistivity'],
-<?php
+<?php 
+					//entering php chart but nothing happened.
 					echo "b";
 					if ($result) 
 					{		echo "a";
@@ -62,7 +63,7 @@
     </script>
   </head>
   <body>
-    <div id="curve_chart" style="width: 100%; height: 500px"> h</div>
+    <div id="curve_chart" style="width: 100%; height: 500px"> h</div> <!--this chart wont work -->
 	<p>test	
   </body>
 </html>
